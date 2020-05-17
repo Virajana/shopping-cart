@@ -17,7 +17,7 @@
                 <div class="seq-title">
                    <span data-seq>Save Up to 75% Off</span>                
                    <h2 data-seq>Men Collection</h2>                
-                   <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+                   <p data-seq>Whoever said that money can’t buy happiness simply didn’t know where to go shopping.</p>
                    <a data-seq href="products2.php" class="btn btn-primary">SHOP NOW</a>
                </div>
            </li>
@@ -29,7 +29,7 @@
             <div class="seq-title">
                 <span data-seq>Save Up to 40% Off</span>                
                 <h2 data-seq>Wristwatch Collection</h2>                
-                <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+                <p data-seq>Anyone who lives within their means suffers from a lack of imagination.</p>
                 <a data-seq href="products.php" class="btn btn-primary">SHOP NOW</a>
             </div>
         </li>
@@ -41,7 +41,7 @@
         <div class="seq-title">
             <span data-seq>Save Up to 75% Off</span>                
             <h2 data-seq>Jeans Collection</h2>                
-            <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+            <p data-seq>Happiness is not in money, but in shopping..</p>
             <a data-seq href="products.php" class="btn btn-primary">SHOP NOW</a>
         </div>
     </li>
@@ -53,7 +53,7 @@
     <div class="seq-title">
         <span data-seq>Save Up to 75% Off</span>                
         <h2 data-seq>Exclusive Shoes</h2>                
-        <p data-seq>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus, illum.</p>
+        <p data-seq>Shopping is better than sex. If you’re not satisfied after shopping, you can make an exchange for something you really like.</p>
         <a data-seq href="products.php" class="btn btn-primary">SHOP NOW</a>
     </div>
 </li>
