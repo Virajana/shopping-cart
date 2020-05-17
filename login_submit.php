@@ -1,8 +1,8 @@
 <?php
     require 'connection.php';
     session_start();
-    $email=mysqli_real_escape_string($con,$_POST['email']);
     $name=mysqli_real_escape_string($con,$_POST['name']);
+    $email=mysqli_real_escape_string($con,$_POST['email']);
     $regex_email="/^[_a-z0-9-]+(\.[_a-z0-9-]+)*@[a-z0-9-]+(\.[_a-z0-9-]+)*(\.[a-z]{2,3})$/";
     if(!preg_match($regex_email,$email)){
         echo "Incorrect email. Redirecting you back to login page...";
@@ -33,9 +33,9 @@
         //echo "Wrong email or password.";
     }else{
         $row=mysqli_fetch_array($user_authentication_result);
-        $_SESSION['name']=$name;
         $_SESSION['email']=$email;
-        $_SESSION['id']=$row['id'];//user id
+        $_SESSION['id']=$row['id'];
+        $_SESSION['name']=$name;
         header('location: products.php');
     }
     

@@ -1,8 +1,16 @@
-       <?php
-        include 'header.php';
-        ?>         
+<?php
+    require 'connection.php';
+    session_start();
+    if(isset($_SESSION['email'])){
+        header('location: products.php');
+    }
+?>     <div>
+            <?php
+                require 'header.php';
+            ?>
             <br><br>
-            <form class="col-lg-4 offset-lg-4">
+            <div class="container">
+                <div class="row">
                     <div class="col-xs-4 col-xs-offset-4">
                         <h1><b>SIGN UP</b></h1>
                         <form method="post" action="user_registration_script.php">
@@ -32,9 +40,9 @@
                 </div>
             </div>
             <br><br>
-               <?php
-        include 'footer.php';
-        ?>
-</body>
+            <?php
+                require 'footer.php';
+            ?>
+        </div>
+    </body>
 </html>
-           

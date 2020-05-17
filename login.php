@@ -1,11 +1,17 @@
-    <?php
-        include 'header.php';
-        ?>         
-            <br><br>
-        <form class="col-lg-4 offset-lg-4">
-                <div class="panel panel-primary">
+<?php
+    require 'connection.php';
+    session_start();
+?>
+     <?php
+                require 'header.php';
+            ?>
+            <br><br><br>
+           <div class="container">
+                <div class="row">
+                    <div class="col-xs-4 col-xs-offset-4">
+                        <div class="panel panel-primary">
                             <div class="panel-heading">
-                            <h1><b>LOG IN</b></h1>
+                                <h3>LOGIN</h3>
                             </div>
                             <div class="panel-body">
                                 <p>Login to make a purchase.</p>
@@ -13,13 +19,12 @@
                                     <div class="form-group">
                                         <input type="email" class="form-control" name="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
                                     </div>
-                                    <div class="form-group">
-                                <input type="text" class="form-control" name="name" placeholder="Name" required="true">
-                            </div>
+                                     <div class="form-group">
+                                        <input type="text" class="form-control" name="name" placeholder="Name">
+                                    </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control" name="password" placeholder="Password(min. 6 characters)" pattern=".{6,}">
                                     </div>
-                                    <label for="rememberme" class="rememberme"><input type="checkbox" id="rememberme"> Remember me </label>
                                     <div class="form-group">
                                         <input type="submit" value="Login" class="btn btn-primary">
                                     </div>
@@ -28,10 +33,12 @@
                             <div class="panel-footer">Don't have an account yet? <a href="signup.php">Register</a></div>
                         </div>
                     </div>
-            <br><br>
+                </div>
+           </div>
+           <br><br><br><br><br>
             <?php
-        include 'footer.php';
-        ?>
-</body>
+                require 'footer.php';
+            ?>
+        </div>
+    </body>
 </html>
-           

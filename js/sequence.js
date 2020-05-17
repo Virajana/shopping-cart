@@ -1,15 +1,3 @@
-/*
- * Sequence.js
- *
- * The responsive CSS animation framework for creating unique sliders,
- * presentations, banners, and other step-based applications.
- *
- * @link https://github.com/IanLunn/Sequence
- * @author IanLunn
- * @version 2.0.0
- * @license http://sequencejs.com/licenses/
- * @copyright Ian Lunn Design Limited 2015
- */
 
 function defineSequence(imagesLoaded, Hammer) {
 
@@ -1981,19 +1969,7 @@ function defineSequence(imagesLoaded, Hammer) {
           el.style[Modernizr.prefixed("transition")] = "0ms 0ms";
         }
 
-        /**
-         * Note: Synchronously, an element's phase class is added/removed here.
-         * To save the need for a callback though (and extra code), we instead rely
-         * on the necessity for the .domDelay() function which doesn't remove the
-         * inheritedStyles until after a brief delay. What would be the callback
-         * is instead just placed after the call to .resetInheritedSpeed() and
-         * from a synchronous point of view, occurs at this point, before the
-         * following .domDelay();
-         */
-
-        // Remove the temporary transition-duration and transition-delay from each
-        // element now it has been manipulated; allowing for the inherited styles
-        // to take effect again.
+       
         self.animation.domDelay(function() {
 
           for (i = 0; i < numberOfStepElements; i++) {
