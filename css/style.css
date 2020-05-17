@@ -1,5 +1,66 @@
 
-
+}
+.aa-slider .aa-slider-area .seq-title {
+  left: 19%;
+  margin-right: 0;
+  position: absolute;
+  top: 30%;
+  width: 57%;
+  text-align: center;
+}
+.aa-slider .aa-slider-area .seq-title span {
+  background-color: #fff;  
+  display: inline-block;
+  padding: 6px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  margin-bottom: 10px;
+}
+.aa-slider .aa-slider-area .seq-title h2 {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #333;
+  display: inline-block;
+  float: none;
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+.aa-slider .aa-slider-area .seq-title p {
+  color: #fff;
+  display: block;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+.aa-slider .aa-slider-area .seq-title .aa-shop-now-btn {
+  margin-top: 25px;
+}
+.aa-slider .aa-slider-area .seq .seq-next {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.aa-slider .aa-slider-area .seq .seq-next:hover, #aa-slider .aa-slider-area .seq .seq-next:focus {  
+  border: 1px solid #f9f9f9;
+  color: #fff;
+}
+.aa-slider .aa-slider-area .seq .seq-prev {
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -ms-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+.aa-slider .aa-slider-area .seq .seq-prev:hover, #aa-slider .aa-slider-area .seq .seq-prev:focus {
+  border: 1px solid #f9f9f9;
+  color: #fff;
+}
+/* ----------End-Slider------------- */
 /* ----------navbar------------- */
 .header-top {
 	background-color: #f6f6f6;
@@ -491,7 +552,7 @@
 	background: #515257;
 }
 .footer-section .footer-text {
-	padding-top: 650px;
+	padding-top: 50px;
 	padding-right: 30px;
 	padding-bottom: 1px;
 	padding-left: 30px;

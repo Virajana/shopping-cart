@@ -177,9 +177,7 @@
   margin-top: 42%;
 }
 
-/*==================
-  SLIDER SECTION
-====================*/
+/* ----------Start-Slider------------- */
 
 .aa-slider {
   float: left;
@@ -253,4 +251,5 @@
   border: 1px solid #f9f9f9;
   color: #fff;
 }
+/* ----------End-Slider------------- */
 

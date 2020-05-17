@@ -7,7 +7,7 @@
 <html>
     <head>
         <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Projectworlds Store</title>
+        <title>Hello Cart</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!-- latest compiled and minified CSS -->
@@ -21,10 +21,7 @@
     </head>
     <body>
         <div>
-            <?php
-                require 'header.php';
-            ?>
-            <br>
+        <br>
             <div class="container">
                 <div class="row">
                     <div class="col-xs-6">
@@ -40,7 +37,7 @@
             <footer class="footer">
                <div class="container">
                 <center>
-                   <p>Copyright &copy <a href="https://projectworlds.in">Projectworlds</a> Store. All Rights Reserved.</p>
+                   <p>Copyright &copy  Store. All Rights Reserved.</p>
                    <p>This website is developed by Yugesh Verma</p>
                </center>
                </div>

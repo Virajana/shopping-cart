@@ -1,3 +1,4 @@
+
 <?php
     session_start();
     require 'check_if_added.php';
@@ -29,20 +30,17 @@ if(isset($_POST['search'])){
     }
   }
 ?>
+
 <!DOCTYPE html>
 <html>
     <head>
         <link rel="shortcut icon" href="img/lifestyleStore.png" />
-        <title>Projectworlds Store</title>
+        <title>Hello Cart</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- latest compiled and minified CSS -->
         <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type="text/css">
-        <!-- jquery library -->
         <script type="text/javascript" src="bootstrap/js/jquery-3.2.1.min.js"></script>
-        <!-- Latest compiled and minified javascript -->
         <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
-        <!-- External CSS -->
         <link rel="stylesheet" href="css/style2.css" type="text/css">
     </head>
     <body>
@@ -53,6 +51,7 @@ if(isset($_POST['search'])){
                     <h1>Welcome to our Projectworlds Store!</h1>
                     <p>We have the best cameras, watches and shirts for you. No need to hunt around, we have all in one place.</p>
                 </div>
+                 <a class="btn btn-default" href="Logout.php" role="button">Logout</a>
                 <div class="col-lg-7 col-md-7">
                         <form action="products.php" method="get">
                         <input type="text" name="search" placeholder="Serach Items"/>
@@ -395,14 +394,8 @@ if(isset($_POST['search'])){
                 </div>
             </div>
             <br><br><br><br><br><br><br><br>
-           <footer class="footer">
-               <div class="container">
-                <center>
-                   <p>Copyright &copy <a href="https://projectworlds.in">Projectworlds</a> Store. All Rights Reserved.</p>
-                   <p>This website is developed by Yugesh Verma</p>
-               </center>
-               </div>
-           </footer>
+                        
+           
         </div>
     </body>
 </html>
