@@ -41,13 +41,6 @@
 
                     </div>
                     <div class="ht-right">
-                        <a href="settings.php" class="login-panel"></i>
-                            <?php  if(isset($_SESSION['name'])){
-                                echo "Options"; }
-                                else echo "";?></a> 
-                        </div>
-
-                    <div class="ht-right">
                         <a href="logout.php" class="login-panel"></i>
                             <?php  if(isset($_SESSION['name'])){
                                 echo "Logout"; }
